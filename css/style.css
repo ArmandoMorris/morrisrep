@@ -1,0 +1,376 @@
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.wrapper{
+    width: 100%;
+    min-width: 600px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: normal;
+    color: black;
+
+}
+/* Header styles start */
+.header{
+    background-color: #D9D9D9;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-width: 1300px;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header_list{
+    margin-top: -1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.header_list1{
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+.header_item{
+    margin-right: 20px;
+}
+.header_item:last-child{
+    margin-right: 0px;
+}
+.header_link{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+}
+.header_link1{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    margin-left: 1168px;
+    
+}
+
+.header_link:hover, .header_link:focus, .header_link:active{
+    opacity: .75;
+}
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro{  
+    padding-top: 3%;
+    min-width: 1600px;
+}
+
+.intro_contacts{
+    padding-left: 370px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-top: -110px;
+}
+
+.intro_worktime{
+    padding-left: 331px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0909px;
+    line-height: 22px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-top: -5px; 
+    
+}
+.intro_worktime1{
+    padding-left: 331px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5455px;
+    line-height: 19px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-top: -15px; 
+
+}
+.intro_logo{
+    margin-left: 0px;
+}
+.phone{
+    margin-bottom: 67px;
+    margin-left: 13px;
+}
+.search-form{
+    margin-top: 6px;
+
+    margin-left: -300px;
+}
+.wrapper .search-form{
+    max-width: 150%;
+}
+
+.search-form_info{
+    margin-bottom: 10px;
+    padding-left: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 57px;
+    
+}
+.search-form_wrap{
+    background-color: #B22222;
+    width: 100%;
+    
+}
+.search-form_field{
+    margin-top: 17px;
+    margin-bottom: 7px;
+    padding-left: 5px;
+    width: 800px;
+    height: 35px;
+}
+.search-form_submit{
+    height: 30px;
+    margin-left: -42px;
+    margin-top: 19.5px;
+}
+    
+.catalog{
+    margin-left: -313px;
+    margin-bottom: -67px;
+}
+
+/* Intro styles end */
+/* Main start */
+.maininfo{
+    min-height: 100vh;
+    min-width: 1600px;
+    text-align:center;
+    margin-top: 3px;
+
+}
+.main_zag{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 71px;
+    letter-spacing: 0.05em;
+    color: #B22222;
+}
+.main_adres{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.main_go-catalog{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    padding: 9px 20px;
+    margin-top: 6px;
+    background-color: #B22222;
+    color: white;
+}
+.main_logo-big{
+    margin-top: 14px;
+}
+.main_line{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-left: 440px;
+    border: 1px solid black;
+    width: 420px;
+    
+}
+.main_about-company{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.main_about-company-text{
+    text-align: left;
+    margin-bottom: 15px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.3226px;
+    line-height: 123.99%;
+}
+.main_about-company-text1{
+    text-align: left;
+    margin-bottom: 50px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27.3226px;
+    line-height: 123.99%;
+}
+
+/* Main end */
+/* Footer styles start */
+.wrapper_footer{
+    width: 100%;
+    min-width: 600px;
+    max-width: 1300px;
+    margin: 0 auto;
+    
+}
+.footer{
+    height: 10%;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    background-color: #8F1818;
+}
+.footer__logo{
+    margin-top: 33px;
+}
+.footer_contacts{
+    margin-top: 14px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-left: 40px;
+    min-width: 1300px;
+    color: white;
+}
+.footer_worktime{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.0909px;
+    line-height: 22px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-top: -5px;
+    min-width: 1300px;
+    color: white;
+}
+.footer_worktime1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.5455px;
+    line-height: 19px;
+    line-height: 39px;
+    letter-spacing: 0.105em;
+    margin-top: -15px;
+    min-width: 1300px;
+    color: white;
+}
+.footer_phone{
+    margin-bottom: -55px;
+    margin-left: -315px;
+
+    
+}
+.footer_map{
+    margin-left: 1072px;
+    margin-top: -350px;
+
+}
+.footer_street{
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.8295px;
+    line-height: 29px;
+    width: 226px;
+    margin-left: 1072px;
+    color: white;
+}
+/*Footer Styles end */
+
+
+/* Catalog page */
+
+.maincatalog{
+    min-height: 100vh;
+}
+.main_banner-catalog{
+    margin-top: 5px;
+    margin-left: -4px;
+}
+.nav_link-maininfo{
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+/* Catalog Page END */
+
+/* Contacts Page START*/
+
+.contacts-main{
+    min-height: 100vh;
+}
+.contacts-main_contact{
+    margin-top: 70px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+}
+.contacts-main_adres{
+    margin-top: 25px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+
+}
+.contacts-main_telefon{
+    margin-top: 28px;
+    font-family: 'Calibri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 35px;
+}
+.contacts-map{
+    margin-top: 86px;
+    margin-bottom: 200px;
+}
+/* Contacts Page END*/
